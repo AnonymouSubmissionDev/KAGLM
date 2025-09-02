@@ -7,16 +7,7 @@ In single-cell bioinformatics analysis, integrating multi-source gene knowledge 
 To tackle the long-tailed distribution problem, we further propose a Dynamic Attention Weighted Loss (DAWL) mechanism, which significantly improves the model's ability to recognize rare cell types. Extensive experiments on multiple public and in-house single-cell datasets demonstrate that the proposed Knowledge-Augmented Gene Language Model outperforms existing mainstream methods in annotation accuracy and generalization ability, providing a powerful tool and theoretical foundation for the intelligent analysis of single-cell data.
 
 ---
-<img align="center" src="./figs/introduce1.png" width=1000 />
-
-## Table of Contents
-
-- [1. Setting up the Environment](#1-setting-up-the-environment)
-- [2. Chemprop Models](#2-chemprop-models)
-- [3. Filtering Molecules – `downselection/`](#3-filtering-molecules)
-- [4. Fragment-Based Molecule Generation – `crem_molecule_generation/`](#4-fragment-based-molecule-generation)
-- [5. Full Molecule Generation](#5-full-molecule-generation)
-- [6. tSNE Plot – `tSNE_plot/`](#6-tsne-plot)
+<img align="center" src="./figs/introduce1.png" width=50 />
 
 ---
 
@@ -34,7 +25,7 @@ pip install -r requirements.txt
 
 We were inspired by Retrieval-Augmented Generation (RAG) technology to construct a multi-source knowledge base centered on gene information, aiming to enhance the model's ability to acquire prior knowledge for single-cell annotation.
 
-<img align="center" src="./figs/xfeat_arq.png" width=1000 />
+<img align="center" src="./figs/method4.png" width=1000 />
 
 
 
