@@ -1,0 +1,55 @@
+# Core scientific computing
+numpy>=1.23.5
+pandas>=2.0.3
+scipy>=1.10.1
+matplotlib>=3.7.5
+seaborn>=0.13.2
+statsmodels>=0.14.1
+
+# Machine learning stack
+torch>=1.13.0
+torchvision>=0.14.0
+torchaudio>=0.13.0
+transformers>=4.55.4
+pytorch-lightning>=1.5.10
+lightning-utilities>=0.11.9
+
+# Data processing
+datasets>=2.21.0
+pandas>=2.0.3
+openpyxl>=3.1.5
+pyarrow>=17.0.0
+dask>=2024.8.1  # 并行计算增强
+
+# Visualization
+matplotlib-inline>=0.1.7
+plotly>=5.13.1
+holoviews>=1.17.0
+datashader>=0.14.0
+
+# Deep learning extensions
+torch-geometric>=2.6.1
+nvidia-cudnn-cu12>=9.1.0
+tensorstore>=0.1.45
+
+# Natural language processing
+transformers>=4.55.4
+sentence-transformers>=5.1.0
+spacy>=3.7.0  # 文本处理核心库
+
+# Development tools
+black>=25.1.0
+isort>=6.0.1
+flake8>=7.0.0
+mypy>=1.17.1
+
+# System utilities
+psutil>=7.0.0
+requests>=2.32.3
+pyyaml>=6.0.2
+python-dotenv>=1.1.1
+
+# Specialized packages
+anndata>=0.9.2  # 单细胞数据分析
+scanpy>=1.9.8   # 单细胞分析框架
+loompy>=3.0.8   # 单细胞数据存储
