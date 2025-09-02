@@ -7,7 +7,7 @@ In single-cell bioinformatics analysis, integrating multi-source gene knowledge 
 To tackle the long-tailed distribution problem, we further propose a Dynamic Attention Weighted Loss (DAWL) mechanism, which significantly improves the model's ability to recognize rare cell types. Extensive experiments on multiple public and in-house single-cell datasets demonstrate that the proposed Knowledge-Augmented Gene Language Model outperforms existing mainstream methods in annotation accuracy and generalization ability, providing a powerful tool and theoretical foundation for the intelligent analysis of single-cell data.
 
 ---
-<img align="center" src="./figs/introduce1.png" width=50 />
+<img align="center" src="./figs/introduce1.png" width=500 />
 
 ---
 
