@@ -27,7 +27,11 @@ We were inspired by Retrieval-Augmented Generation (RAG) technology to construct
 
 <img align="center" src="./figs/method4.png" width=1000 />
 
+### Multi-Source Gene Knowledge Base Construction
 
+<img align="center" src="./figs/method0.png" width=1000 />
+
+## Test
 
 ### The executable code for reproducing LBCL dataset.
 
@@ -48,8 +52,20 @@ python example/optic2_NCBI_kan.py
 ```
 
 ### The executable code for reproducing optic3 dataset.
-
 ```
 python example/optic3_NCBI_kan_each.py
 ```
+
+## dataset
+The three categories of datasets involved in the paper can be accessed via cloud storage, with detailed descriptions provided in the Appendix. Specifically:
+
+1.
+​​CZ CELLxGENE Discover Dataset​​ and ​​Multiple Sclerosis (MS) and hPancreas Dataset​​ are publicly available datasets.
+
+2.
+​​Celler75​​ is proprietary data from our experimental team.
+
+Test data for all datasets can be accessed via the provided links below.
+
+
 
