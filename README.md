@@ -32,24 +32,24 @@ We were inspired by Retrieval-Augmented Generation (RAG) technology to construct
 ### The executable code for reproducing LBCL dataset.
 
 ```
-python .example/LBCL_NCBI_kan_each.py
+python example/LBCL_NCBI_kan_each.py
 ```
 
 ### The executable code for reproducing human_atlas dataset.
 
 ```
-python .example/human_atlas_NCBI_kan_each.py
+python example/human_atlas_NCBI_kan_each.py
 ```
 
 ### The executable code for reproducing optic2 dataset.
 
 ```
-python .example/optic2_NCBI_kan.py
+python example/optic2_NCBI_kan.py
 ```
 
 ### The executable code for reproducing optic3 dataset.
 
 ```
-python .example/optic3_NCBI_kan_each.py
+python example/optic3_NCBI_kan_each.py
 ```
 
